@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: bg-gray-700;
+     background-image: radial-gradient(at 50% 40% ,#d66a05 0%,#efc874 );
+    background-repeat: no-repeat;
+  }
+  
+  
+  table{
+    width: 100px;
+    color: rgb(7, 7, 7);
+  }
+  th{
+    color: #0b0b0b;
+    font-size: large;
+  }
+  
+  td{
+    text-align: center;
+  }
+  
+  .regis-form{
+    margin:2vh;
+    width:300px;
+    background-color: rgba(14, 13, 13, 0.936);
+    background-image: linear-gradient(45deg,#d7d7d7, #f3f3f2, #cccccc, #c6c6c6,
+    #d7d7d7, #c3c3c3, #cccccc, #c6c6c6,
+    #d7d7d7, #c3c3c3, #cccccc, #c6c6c6,
+    #d7d7d7, #c3c3c3, #f1dede, #c6c6c6);
+    
+    border-radius: 10%;
+    display: block;
+    text-align: center;
+    box-shadow: -7px 7px 5px rgb(15, 15, 15);
+    transition:box-shadow 300ms;
+    /* overflow: hidden; */
+    border: 3px solid
+  }
+  
+  
+  .regis-form:hover{
+    box-shadow:0px 0px 10px #be6c07;
+    
+  }
+  
+  .regis-form div input{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  
+  .regis-form div label{
+    color:#836;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-weight: 100;
+    
+  }
+  
+  
+  
+  
+  
+  .regis-form div{
+    padding:1%;
+    margin: 6%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
